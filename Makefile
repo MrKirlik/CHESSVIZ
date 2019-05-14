@@ -1,2 +1,2 @@
 all:
-	g++ -o chessviz chessviz.cpp 
+	g++ chessviz.cpp -o chessviz 

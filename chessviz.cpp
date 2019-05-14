@@ -79,5 +79,6 @@ int main() {
     char a[9][9];
     makeboard(a);
     printboard(a);
+    system("pause");
     return 0;
 }
