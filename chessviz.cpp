@@ -2,7 +2,8 @@
 
 using namespace std;
 
-void makeboard(char a[][9]) {
+void makeboard(char a[][9])
+{
     int i, j;
     for (i = 0; i < 9; i++) {
         for (j = 0; j < 9; j++) {
@@ -64,7 +65,8 @@ void makeboard(char a[][9]) {
     a[8][8] = 'h';
 }
 
-void printboard(char a[][9]) {
+void printboard(char a[][9])
+{
     int i, j;
     for (i = 0; i < 9; i++) {
         for (j = 0; j < 9; j++) {
@@ -75,10 +77,11 @@ void printboard(char a[][9]) {
     cout << endl;
 }
 
-int main() {
+int main()
+{
     char a[9][9];
     makeboard(a);
     printboard(a);
-    system("pause");
+    system("PAUSE");
     return 0;
 }
